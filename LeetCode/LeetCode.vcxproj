@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SourceFiles\global.h" />
+    <ClInclude Include="..\APP\global.h" />
+    <ClInclude Include="..\APP\Solution\twoSum.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SourceFiles\main.cpp" />
+    <ClCompile Include="..\APP\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -82,6 +83,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\APP;$(SolutionDir)\APP\Solution;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

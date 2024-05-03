@@ -20,8 +20,8 @@
 ** 
 **-----------------------------------------------------------------------------------------
 */
-#ifndef _COMMON_H_
-#define _COMMON_H_
+#ifndef _GLOBAL_H_
+#define _GLOBAL_H_
 
 /*-----------------------------------------------------------------------------------------
 **										  Include 
@@ -36,6 +36,43 @@
 
 using namespace std;
 
+/*-----------------------------------------------------------------------------------------
+**									Function Definition
+**-----------------------------------------------------------------------------------------
+*/
+/*.BH--------------------------------------------------------------------------------------
+**
+** Function Name: outputVector
+**
+** Description: This function is used to output integer vector
+**
+** Input Parameter:
+**		nums, vector<int>
+**
+** Output Parameter:
+**
+** Return Value:
+**
+** Design Annotation:
+**
+** Modification History:
+**		May 3rd 2024, create this function
+**
+**.EH--------------------------------------------------------------------------------------
+*/
+void outputVector(vector<int> nums)
+{
+	cout << "[";
+	for (int index = 0; index < (int)nums.size(); ++index)
+	{
+		cout << nums[index];
+		if (index < (int)nums.size() - 1)
+		{
+			cout << ",";
+		}
+	}
+	cout << "]" << endl;
+}
+/* END of outputVector */
 
-
-#endif // _COMMON_H_
+#endif // _GLOBAL_H_

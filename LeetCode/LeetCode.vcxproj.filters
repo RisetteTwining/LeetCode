@@ -13,14 +13,20 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Solution">
+      <UniqueIdentifier>{acd387fe-b63a-4785-b1b9-8c8c53d6e516}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SourceFiles\global.h">
+    <ClInclude Include="..\APP\global.h">
       <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APP\Solution\twoSum.h">
+      <Filter>源文件\Solution</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SourceFiles\main.cpp">
+    <ClCompile Include="..\APP\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
